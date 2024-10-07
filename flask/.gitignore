@@ -1,0 +1,23 @@
+.env
+
+# Ignorar archivos de caché de Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignorar archivos específicos de Flask
+models/__pycache__/
+routes/__pycache__/
+db/__pycache__/
+*.pyc
+
+# Ignorar archivos de entorno y configuración
+.env
+*.env
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos específicos del sistema
+.DS_Store
+Thumbs.db
